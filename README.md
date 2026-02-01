@@ -22,3 +22,4 @@ Build a reproducible, documented virtual network that can be monitored and troub
 - Configured static IP and gateway to Mikrotik.
 - Verified connectivity via ping.
 - Saved client config as 'configs/'
+- Lesson: Don't forget to watch the tutorial before installing Debian on VirtualBox to avoid any problems.

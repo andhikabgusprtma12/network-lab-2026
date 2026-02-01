@@ -8,9 +8,17 @@ Build a reproducible, documented virtual network that can be monitored and troub
 
 ## Day 01 - 01-25-2026
 - Initialized repository.
+- Lesson: To start taking real action and reduce procrastination.
 
 ## Day 02 - 01-27-2026
 - Deployed Mikrotik CHR in VirtualBox (CLI only).
 - Configured static IP on ether1.
 - Verified host-to-VM connectivity.
 - Expored config as 'configs/chr-day2-basic.rsc'
+- Lesson: If your computer's IP is 192.168.34.10, keep the network ID (192.168.34) but change the host ID (.10)
+
+## Day 03 - 02-01-2026
+- Deployed Debian CLI VM as network client.
+- Configured static IP and gateway to Mikrotik.
+- Verified connectivity via ping.
+- Saved client config as 'configs/'

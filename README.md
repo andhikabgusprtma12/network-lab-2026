@@ -21,5 +21,12 @@ Build a reproducible, documented virtual network that can be monitored and troub
 - Deployed Debian CLI VM as network client.
 - Configured static IP and gateway to Mikrotik.
 - Verified connectivity via ping.
-- Saved client config as 'configs/'
+- Saved client config as 'configs/debian-client-enp0s8.conf'.
 - Lesson: Don't forget to watch the tutorial before installing Debian on VirtualBox to avoid any problems.
+
+## Day 04 - 02-02-2026
+- Added second Debian VM as "Server" on separate subnet (192.168.66.0/24).
+- Configured Mikrotik ether2 as gateway for server subnet.
+- Verified inter-subnet communication via ping form client to ser ver.
+- Saved configs: 'configs/chr-day04-inter-subnet.rsc', 'configs/debian-server-enp0s3.conf'.
+- Lesson: Although the subnets differ, they stay connected if the Mikrotik has the IP routes.

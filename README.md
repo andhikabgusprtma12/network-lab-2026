@@ -31,9 +31,16 @@ Build a reproducible, documented virtual network that can be monitored and troub
 - Saved configs: 'configs/chr-day04-inter-subnet.rsc', 'configs/debian-server-enp0s3.conf'.
 - Lesson: Although the subnets differ, they stay connected if the Mikrotik has the IP routes.
 
-## Day 05 - 02-07-2026
+## Day 05 - 02-06-2026
 - Implemented stateless firewall on Mikrotik: allow only client → server ping and management.
 - Created monitoring script on Debian client to log server availability.
 - Verified that unauthorized traffic is blocked.
 - Saved artifacts: firewall config, monitoring script, sample log.
 - Lesson: Firewall is very important here because it can manage your network connections either allowing or blocking them.
+
+## Day 06 - 02-07-2026
+- Enabled SSH on Mikrotik and configured key-based authentication.
+- Created automated backup script form Debian client to pull config with timestamp.
+- Verified backup integrity and cleanup of temporary files on router.
+- Saved artifact: backup scripts, sample config backup.
+- Lesson: If you're syncing Debian to MikroTik, remember to use id_rsa (the private key), not id_rsa.pub (the public key).
